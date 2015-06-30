@@ -1,0 +1,8 @@
+// convert a px value to rem
+@function em($value, $base) {
+  @if (type-of($value) == "number" and unitless($value) or unit($value) == "px") and (type-of($base) == "number" and unitless($base) or unit($base) == "px") {
+    @return strip-unit($value) / strip-unit($base) + em;
+  } @else {
+    @error "$value and $base may either be a px or unitless number, was #{$value} and #{$base}."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "spacelab-functions.em",
+  "version": "0.1.0",
+  "authors": [
+    "Axel Salder",
+    "Daniel Blomeyer"
+  ],
+  "description": "Function to calculate an em from a px value and a px base.",
+  "main": "_functions.em.scss",
+  "keywords": [
+    "spacelab",
+    "css"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/spacelab/functions.em",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
